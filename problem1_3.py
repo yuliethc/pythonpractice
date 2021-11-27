@@ -13,11 +13,10 @@ but be sure this isn't in the submitted function.
 """
 #%%
 def problem1_3(n):
-    my_sum = 0   
-    for i in range(1, n+1):
-        my_sum += i
-        print(my_sum)
-
+    my_sum = 0
+    for i in range(n+1):
+        my_sum = my_sum + i
+    print(my_sum)
 #%%
 """
 Test run. Note that the grader program will use a different number for n:

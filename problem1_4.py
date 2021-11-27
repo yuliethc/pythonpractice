@@ -10,11 +10,7 @@ just one space or the auto-grader may not give you credit.
 """
 #%%
 def problem1_4(miles):
-    
-    feet= int(miles) * 5280
-    print("There are", feet, "in", miles, "miles")
-
-    
+    print("There are", int(miles) * 5280, "in", miles, "miles")
 #%%
 """
 Test run. Note that the grader program will use different numbers:
